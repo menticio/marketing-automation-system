@@ -22,7 +22,7 @@ python -m src.main --backup data/guia_rpa_respaldo.html
 # Con otra pieza madre
 python -m src.main --url https://trycore.com/transformacion-digital/mitos-de-automatizacion-rpa/
 
-# Pruebas automatizadas (19 casos)
+# Pruebas automatizadas (20 casos)
 python -m pytest -v
 ```
 
