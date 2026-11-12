@@ -1,0 +1,38 @@
+{
+  "limpieza_historial": {
+    "filas_leidas": 63,
+    "filas_repetidas_eliminadas": 3,
+    "tasas_recalculadas": 1,
+    "fechas_sin_formato_valido": 0,
+    "celdas_vacias_comentarios": 3,
+    "filas_usadas": 60
+  },
+  "tasa_mediana_por_formato": {
+    "carrusel_linkedin": {
+      "tasa_mediana": 0.0478,
+      "publicaciones": 15
+    },
+    "infografia": {
+      "tasa_mediana": 0.0457,
+      "publicaciones": 9
+    },
+    "guion_video_corto": {
+      "tasa_mediana": 0.0439,
+      "publicaciones": 9
+    },
+    "post_linkedin": {
+      "tasa_mediana": 0.0319,
+      "publicaciones": 27
+    }
+  },
+  "formatos_no_generados": [
+    {
+      "formato": "caso_de_exito",
+      "motivo": "no hay testimonio de cliente con nombre y cargo"
+    },
+    {
+      "formato": "infografia",
+      "motivo": "viable, pero sin generador en esta versión"
+    }
+  ]
+}

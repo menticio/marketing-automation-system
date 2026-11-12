@@ -23,10 +23,7 @@ build/
 Thumbs.db
 
 # Project specific
-output/*.json
-output/*.html
-output/*.txt
-!output/.gitkeep
+# Los resultados de output/ se suben como ejemplo de una ejecución real
 
 # Logs
 *.log

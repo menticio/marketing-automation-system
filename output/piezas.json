@@ -1,0 +1,120 @@
+[
+  {
+    "titulo": "¿Cómo funciona la automatización robótica RPA?",
+    "partes": {
+      "gancho": "¿Cómo funciona la automatización robótica RPA?",
+      "desarrollo": [
+        "En ocasiones la palabra robótica puede confundir a la persona que desconoce la tecnología.",
+        "Cuando se habla de RPA se habla de un software y no de un robot físico; más bien se trabaja en software para realizar tareas repetitivas, de gran volumen para la organización y que tienen un impacto en el negocio amplio."
+      ],
+      "llamado_a_la_accion": "¿Cómo lo están resolviendo en tu equipo? Lee la guía completa aquí:",
+      "enlace": "https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=linkedin&utm_medium=social-organico&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=post-linkedin-1"
+    },
+    "texto": "¿Cómo funciona la automatización robótica RPA?\n\nEn ocasiones la palabra robótica puede confundir a la persona que desconoce la tecnología.\n\nCuando se habla de RPA se habla de un software y no de un robot físico; más bien se trabaja en software para realizar tareas repetitivas, de gran volumen para la organización y que tienen un impacto en el negocio amplio.\n\n¿Cómo lo están resolviendo en tu equipo? Lee la guía completa aquí:\n\nhttps://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=linkedin&utm_medium=social-organico&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=post-linkedin-1",
+    "id": "post_linkedin-1",
+    "formato": "post_linkedin",
+    "canal": "linkedin",
+    "tema": "rpa",
+    "palabras": 74,
+    "tiene_cifra": false,
+    "problemas": [],
+    "estado": "pendiente_aprobacion",
+    "puntaje": 22,
+    "explicacion_puntaje": "tasa esperada 2.92% (base 4.19%, formato=post_linkedin: -0.84%, tema=rpa: -0.07%, tiene_cifra=False: -0.68%, hora=08:30: +0.33%)",
+    "programada": "2026-12-09 08:30",
+    "semaforo": "rojo"
+  },
+  {
+    "titulo": "Metodología de implementación de RPA",
+    "partes": {
+      "portada": "Metodología de implementación de RPA: 8 claves en 8 láminas",
+      "laminas": [
+        "Comprende el proceso que vas a automatizar en la primera implementación RPA.",
+        "Documenta los procesos elegidos.",
+        "Crea una cultura de RPA que comprenda sus beneficios.",
+        "Elige una buena plataforma de automatización robótica.",
+        "Enfócate en los objetivos.",
+        "Sé estratégico.",
+        "Piensa el proyecto a largo plazo.",
+        "Calcula siempre el retorno a la inversión de la implementación RPA."
+      ],
+      "cierre": "Guarda este carrusel y revisa la guía completa: https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=linkedin&utm_medium=social-organico&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=carrusel-linkedin-1",
+      "enlace": "https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=linkedin&utm_medium=social-organico&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=carrusel-linkedin-1"
+    },
+    "texto": "Metodología de implementación de RPA: 8 claves en 8 láminas\n\n1. Comprende el proceso que vas a automatizar en la primera implementación RPA.\n\n2. Documenta los procesos elegidos.\n\n3. Crea una cultura de RPA que comprenda sus beneficios.\n\n4. Elige una buena plataforma de automatización robótica.\n\n5. Enfócate en los objetivos.\n\n6. Sé estratégico.\n\n7. Piensa el proyecto a largo plazo.\n\n8. Calcula siempre el retorno a la inversión de la implementación RPA.\n\nGuarda este carrusel y revisa la guía completa: https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=linkedin&utm_medium=social-organico&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=carrusel-linkedin-1",
+    "id": "carrusel_linkedin-1",
+    "formato": "carrusel_linkedin",
+    "canal": "linkedin",
+    "tema": "rpa",
+    "palabras": 82,
+    "tiene_cifra": false,
+    "problemas": [],
+    "estado": "pendiente_aprobacion",
+    "puntaje": 53,
+    "explicacion_puntaje": "tasa esperada 4.21% (base 4.19%, formato=carrusel_linkedin: +0.45%, tema=rpa: -0.07%, tiene_cifra=False: -0.68%, hora=08:30: +0.33%)",
+    "programada": "2026-12-03 08:30",
+    "semaforo": "amarillo"
+  },
+  {
+    "titulo": "Guía de automatización RPA",
+    "partes": {
+      "asunto": "Guía de automatización RPA",
+      "introduccion": "¿Qué pasaría si rutinarias acciones como almacenar, recuperar, manipular, transmitir datos, entre otras, fueran elaboradas por una tecnología de software? Con Robotic Process Automation (RPA), puedes automatizar tareas repetitivas, simples y con un alto volumen de ejecución.",
+      "secciones": [
+        {
+          "subtitulo": "Metodología de implementación de RPA",
+          "texto": "Cuando se trata de automatizar con RPA es importante contar con un plan bien definido desde el inicio, el cual busque aprovechar al máximo el tiempo y los recursos necesarios para implementar esta tecnología. De esta manera, debe ser un proyecto que se lleve a cabo de forma minuciosa, con acciones coordinadas y rigor. Así se abordarán posibles riesgos, barreras y preocupaciones; y evitar la ansiedad por la automatización."
+        },
+        {
+          "subtitulo": "¿Cómo funciona la automatización robótica RPA?",
+          "texto": "En ocasiones la palabra robótica puede confundir a la persona que desconoce la tecnología. Cuando se habla de RPA se habla de un software y no de un robot físico; más bien se trabaja en software para realizar tareas repetitivas, de gran volumen para la organización y que tienen un impacto en el negocio amplio. Para entender el funcionamiento de la RPA es importante diferenciar dos tipos de automatización, que funcionan según la forma en el que dicho robot te ayuda a automatizar."
+        },
+        {
+          "subtitulo": "Construye un Centro de Excelencia",
+          "texto": "Un centro de excelencia resuelve desafíos relacionados al costo y escalabilidad; permitiendo que la integración de las automatizaciones sea efectiva en toda la organización para distribuirla y replicarla. De esta manera, mejora en comprensión, planificación y el esfuerzo bien estructurado de una implementación RPA."
+        }
+      ],
+      "llamado_a_la_accion": "Lee la guía completa y comparte con tu equipo: https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=newsletter&utm_medium=email&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=newsletter-1",
+      "enlace": "https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=newsletter&utm_medium=email&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=newsletter-1"
+    },
+    "texto": "Asunto: Guía de automatización RPA\n\n¿Qué pasaría si rutinarias acciones como almacenar, recuperar, manipular, transmitir datos, entre otras, fueran elaboradas por una tecnología de software? Con Robotic Process Automation (RPA), puedes automatizar tareas repetitivas, simples y con un alto volumen de ejecución.\n\n## Metodología de implementación de RPA\nCuando se trata de automatizar con RPA es importante contar con un plan bien definido desde el inicio, el cual busque aprovechar al máximo el tiempo y los recursos necesarios para implementar esta tecnología. De esta manera, debe ser un proyecto que se lleve a cabo de forma minuciosa, con acciones coordinadas y rigor. Así se abordarán posibles riesgos, barreras y preocupaciones; y evitar la ansiedad por la automatización.\n\n## ¿Cómo funciona la automatización robótica RPA?\nEn ocasiones la palabra robótica puede confundir a la persona que desconoce la tecnología. Cuando se habla de RPA se habla de un software y no de un robot físico; más bien se trabaja en software para realizar tareas repetitivas, de gran volumen para la organización y que tienen un impacto en el negocio amplio. Para entender el funcionamiento de la RPA es importante diferenciar dos tipos de automatización, que funcionan según la forma en el que dicho robot te ayuda a automatizar.\n\n## Construye un Centro de Excelencia\nUn centro de excelencia resuelve desafíos relacionados al costo y escalabilidad; permitiendo que la integración de las automatizaciones sea efectiva en toda la organización para distribuirla y replicarla. De esta manera, mejora en comprensión, planificación y el esfuerzo bien estructurado de una implementación RPA.\n\nLee la guía completa y comparte con tu equipo: https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=newsletter&utm_medium=email&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=newsletter-1",
+    "id": "newsletter-1",
+    "formato": "newsletter",
+    "canal": "newsletter",
+    "tema": "rpa",
+    "palabras": 264,
+    "tiene_cifra": false,
+    "problemas": [],
+    "estado": "pendiente_aprobacion",
+    "puntaje": null,
+    "explicacion_puntaje": "Sin historial para el formato 'newsletter': no se calcula puntaje",
+    "programada": null,
+    "semaforo": "gris"
+  },
+  {
+    "titulo": "¿Qué es RPA?",
+    "partes": {
+      "gancho": "¿Qué es RPA?",
+      "puntos": [
+        "Cuando se trata de automatizar con RPA es importante contar con un plan bien definido desde el inicio, el cual busque aprovechar al máximo el tiempo y los recursos necesarios para implementar esta tecnología.",
+        "En ocasiones la palabra robótica puede confundir a la persona que desconoce la tecnología. Cuando se habla de RPA se habla de un software y no de un robot físico; más bien se trabaja en software para realizar tareas repetitivas, de gran volumen para la organización y que tienen un impacto en el negocio amplio.",
+        "Un centro de excelencia resuelve desafíos relacionados al costo y escalabilidad; permitiendo que la integración de las automatizaciones sea efectiva en toda la organización para distribuirla y replicarla."
+      ],
+      "cierre": "Si quieres profundizar, la guía completa está en el enlace.",
+      "enlace": "https://trycore.com/guia-de-automatizacion-con-rpa/?utm_source=linkedin&utm_medium=social-organico&utm_campaign=guia-de-automatizacion-con-rpa-202611&utm_content=guion-video-corto-1"
+    },
+    "texto": "[Gancho] ¿Qué es RPA?\n\n[Punto 1] Cuando se trata de automatizar con RPA es importante contar con un plan bien definido desde el inicio, el cual busque aprovechar al máximo el tiempo y los recursos necesarios para implementar esta tecnología.\n\n[Punto 2] En ocasiones la palabra robótica puede confundir a la persona que desconoce la tecnología. Cuando se habla de RPA se habla de un software y no de un robot físico; más bien se trabaja en software para realizar tareas repetitivas, de gran volumen para la organización y que tienen un impacto en el negocio amplio.\n\n[Punto 3] Un centro de excelencia resuelve desafíos relacionados al costo y escalabilidad; permitiendo que la integración de las automatizaciones sea efectiva en toda la organización para distribuirla y replicarla.\n\n[Cierre] Si quieres profundizar, la guía completa está en el enlace.",
+    "id": "guion_video_corto-1",
+    "formato": "guion_video_corto",
+    "canal": "linkedin",
+    "tema": "rpa",
+    "palabras": 130,
+    "tiene_cifra": false,
+    "problemas": [],
+    "estado": "pendiente_aprobacion",
+    "puntaje": 43,
+    "explicacion_puntaje": "tasa esperada 3.89% (base 4.19%, formato=guion_video_corto: +0.13%, tema=rpa: -0.07%, tiene_cifra=False: -0.68%, hora=08:30: +0.33%)",
+    "programada": "2026-12-07 08:30",
+    "semaforo": "amarillo"
+  }
+]

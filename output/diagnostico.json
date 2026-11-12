@@ -1,0 +1,66 @@
+{
+  "url": "https://trycore.com/guia-de-automatizacion-con-rpa/",
+  "origen_contenido": "url",
+  "titulo": "Guía de automatización RPA",
+  "tema": "rpa",
+  "indicadores": {
+    "palabras": 3430,
+    "secciones": 20,
+    "listas": 15,
+    "lista_mas_larga": 10,
+    "palabras_promedio_por_frase": 27.7,
+    "frases_con_cifras": 2,
+    "cifras_con_fuente": 0,
+    "titulos_repetidos": [
+      "Analiza los resultados"
+    ],
+    "secciones_vacias": [
+      "¿Cómo debes elegir un proceso para automatizar con RPA?"
+    ],
+    "fecha_publicacion": "2023-02-13",
+    "antiguedad_anios": 3.7
+  },
+  "alertas_reglas": [
+    "Producto no vigente mencionado: 'Turbo RPA' (marcar para revisión)"
+  ],
+  "alertas_calidad": [
+    "Frases largas (más de 25 palabras en promedio): la lectura puede ser difícil",
+    "Títulos repetidos en la página: ['Analiza los resultados']",
+    "Secciones sin contenido: ['¿Cómo debes elegir un proceso para automatizar con RPA?']",
+    "Hay cifras sin fuente citada: no se pueden usar como dato en las piezas",
+    "Contenido publicado hace 3.7 años: revisar vigencia"
+  ],
+  "productos_vigentes_mencionados": [],
+  "formatos": [
+    {
+      "formato": "post_linkedin",
+      "viable": true,
+      "motivo": "16 secciones desarrolladas"
+    },
+    {
+      "formato": "carrusel_linkedin",
+      "viable": true,
+      "motivo": "lista más larga con 10 elementos (se piden 5)"
+    },
+    {
+      "formato": "newsletter",
+      "viable": true,
+      "motivo": "16 temas desarrollables (se piden 3)"
+    },
+    {
+      "formato": "guion_video_corto",
+      "viable": true,
+      "motivo": "al menos 3 puntos claros"
+    },
+    {
+      "formato": "caso_de_exito",
+      "viable": false,
+      "motivo": "no hay testimonio de cliente con nombre y cargo"
+    },
+    {
+      "formato": "infografia",
+      "viable": true,
+      "motivo": "0 cifras con fuente; pasos en lista: 10"
+    }
+  ]
+}

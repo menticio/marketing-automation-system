@@ -1,0 +1,78 @@
+{
+  "calendario": [
+    {
+      "inicio": "2026-12-01 08:30:00",
+      "formato": "post_linkedin",
+      "tema": "rpa",
+      "titulo": "Tres señales de que un proceso está listo para automatizarse",
+      "canal": "linkedin",
+      "estado": "programada",
+      "ya_agendada": true
+    },
+    {
+      "inicio": "2026-12-03 08:30:00",
+      "formato": "carrusel_linkedin",
+      "tema": "rpa",
+      "titulo": "Metodología de implementación de RPA",
+      "canal": "linkedin",
+      "pieza_id": "carrusel_linkedin-1",
+      "estado": "programada_pendiente_aprobacion",
+      "ya_agendada": false
+    },
+    {
+      "inicio": "2026-12-03 11:00:00",
+      "formato": "carrusel_linkedin",
+      "tema": "docfly",
+      "titulo": "Cómo se lee un documento difícil",
+      "canal": "linkedin",
+      "estado": "programada",
+      "ya_agendada": true
+    },
+    {
+      "inicio": "2026-12-07 08:30:00",
+      "formato": "guion_video_corto",
+      "tema": "rpa",
+      "titulo": "¿Qué es RPA?",
+      "canal": "linkedin",
+      "pieza_id": "guion_video_corto-1",
+      "estado": "programada_pendiente_aprobacion",
+      "ya_agendada": false
+    },
+    {
+      "inicio": "2026-12-07 11:00:00",
+      "formato": "post_linkedin",
+      "tema": "people_service",
+      "titulo": "Perfiles TI que más se piden este trimestre",
+      "canal": "linkedin",
+      "estado": "programada",
+      "ya_agendada": true
+    },
+    {
+      "inicio": "2026-12-09 08:30:00",
+      "formato": "post_linkedin",
+      "tema": "rpa",
+      "titulo": "¿Cómo funciona la automatización robótica RPA?",
+      "canal": "linkedin",
+      "pieza_id": "post_linkedin-1",
+      "estado": "programada_pendiente_aprobacion",
+      "ya_agendada": false
+    },
+    {
+      "inicio": "2026-12-10 08:30:00",
+      "formato": "newsletter",
+      "tema": "marca",
+      "titulo": "Novedades de Trycore",
+      "canal": "newsletter",
+      "estado": "programada",
+      "ya_agendada": true
+    }
+  ],
+  "no_ubicadas": [
+    {
+      "pieza_id": "newsletter-1",
+      "formato": "newsletter",
+      "motivo": "menos de 48 h de otra pieza del tema 'rpa'"
+    }
+  ],
+  "conflictos": []
+}
