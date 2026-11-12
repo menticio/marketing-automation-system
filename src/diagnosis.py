@@ -17,6 +17,9 @@ from src import rules           # Nuestras reglas de negocio (términos prohibid
 # Palabras que indican que una cifra tiene fuente ("según X", "fuente: X")
 SOURCE_WORDS = re.compile(r"\b(según|fuente|de acuerdo con|reporta|estudio de)\b", re.IGNORECASE)
 
+# Mínimo de palabras para considerar que hay una pieza madre que transformar
+MIN_WORDS = 150
+
 # Una "cifra" es un número con %, $ o un número de 2+ dígitos que no sea un año
 FIGURE_PATTERN = re.compile(r"\d+([.,]\d+)?\s?%|\$\s?\d+|\b(?!19\d\d|20\d\d)\d{2,}\b")
 
@@ -290,4 +293,17 @@ def diagnose(url, config, backup_path=None, known_topics=(), today=None):
     }
     if source == "backup":
         report["alertas_calidad"].insert(0, "No se pudo descargar la URL: se usó el archivo de respaldo")
+
+    # Si no hay texto legible, el sistema lo dice en vez de quedarse callado.
+    # Pasa con páginas que arman su contenido con JavaScript (Angular, React...):
+    # el HTML llega casi vacío y el texto aparece solo en el navegador.
+    if indicators["palabras"] < MIN_WORDS:
+        page_title = BeautifulSoup(html, "html.parser").title
+        report["titulo"] = report["titulo"] or (page_title.get_text(strip=True) if page_title else url)
+        report["alertas_calidad"].insert(0, (
+            f"Contenido insuficiente: solo {indicators['palabras']} palabras legibles en el HTML "
+            f"(mínimo {MIN_WORDS}). Si la página se genera con JavaScript, el texto no viene en el HTML. "
+            "No se generan piezas."))
+        for item in formats:
+            item["viable"], item["motivo"] = False, "sin contenido suficiente en la pieza madre"
     return report, document

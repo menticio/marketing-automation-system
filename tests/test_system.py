@@ -81,6 +81,17 @@ def test_backup_is_used_when_url_fails(tmp_path):
     assert "Respaldo" in html
 
 
+def test_empty_javascript_page_is_reported(config, monkeypatch):
+    # Una página hecha con Angular/React llega casi vacía: el sistema debe decirlo, no callarse
+    from src import diagnosis
+    html = "<html><head><title>Mi App</title></head><body><app-root></app-root></body></html>"
+    monkeypatch.setattr(diagnosis, "fetch_html", lambda url, backup_path=None: (html, "url"))
+    report, _ = diagnosis.diagnose("https://ejemplo.com", config)
+    assert report["titulo"] == "Mi App"
+    assert "Contenido insuficiente" in report["alertas_calidad"][0]
+    assert not any(item["viable"] for item in report["formatos"])
+
+
 def test_document_is_split_by_sections():
     main = extract_main_content("<main><h1>T</h1><p>Intro.</p><h2>A</h2><ol><li>1</li><li>2</li></ol>"
                                 "<h2>B</h2><p>Texto B.</p></main>")

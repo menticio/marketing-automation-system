@@ -111,6 +111,10 @@ def main():
     summary, pieces, unplaced, conflicts, diagnosis = run(args)
     print(f"Pieza madre: {diagnosis['titulo']} (origen: {diagnosis['origen_contenido']})")
     print(f"Alertas: {len(diagnosis['alertas_reglas'])} de reglas, {len(diagnosis['alertas_calidad'])} de calidad")
+    if not pieces:
+        # Sin piezas no hay nada que programar: se explica por qué
+        print("  No se generó ninguna pieza:", diagnosis["alertas_calidad"][0] if diagnosis["alertas_calidad"]
+              else "ningún formato es viable")
     for piece in pieces:
         print(f"  {piece['id']:<22} {piece['estado']:<22} {piece['programada'] or 'NO UBICADA':<17} "
               f"puntaje {piece['puntaje']} ({piece['semaforo']})")
