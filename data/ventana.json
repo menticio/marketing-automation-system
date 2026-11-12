@@ -1,0 +1,6 @@
+{
+  "variante": "A",
+  "inicio": "2026-11-30",
+  "fin": "2026-12-11",
+  "nota": "Programa las piezas derivadas dentro de esta ventana. El archivo calendario_ocupado.csv trae lo que ya está agendado."
+}

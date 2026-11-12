@@ -1,0 +1,388 @@
+{
+  "version": "1.0",
+  "aviso_caso_ficticio": "Caso ficticio con fines de evaluación. Las reglas, nombres de clientes, cifras y ejemplos de este archivo son inventados para el reto y no describen una situación real de Trycore.",
+  "nota": "Reglas de Mercadeo para el reto. Tu sistema debe leerlas de este archivo, no escribirlas dentro del código.",
+  "alcance_de_la_transformacion": "La transformación de la pieza madre a cada formato entrega contenido redactado y estructurado por partes (por ejemplo, en JSON o Markdown). No incluye diseño gráfico: ni imágenes, ni maquetación, ni plantillas visuales.",
+  "productos_vigentes": [
+    "Docfly",
+    "ORIUNO",
+    "Software Factory",
+    "People Service"
+  ],
+  "terminos_prohibidos": [
+    {
+      "termino": "GPT",
+      "motivo": "No se nombran los modelos de IA que usan los productos"
+    },
+    {
+      "termino": "OpenAI",
+      "motivo": "No se nombran los modelos de IA que usan los productos"
+    },
+    {
+      "termino": "Llama",
+      "motivo": "No se nombran los modelos de IA que usan los productos"
+    },
+    {
+      "termino": "integración inmediata",
+      "motivo": "La integración se arma por cliente; no se promete inmediatez"
+    },
+    {
+      "termino": "cualquier ERP",
+      "motivo": "La integración se arma por cliente; no se promete compatibilidad universal"
+    },
+    {
+      "termino": "100% de precisión",
+      "motivo": "Promesa absoluta que no se puede respaldar"
+    },
+    {
+      "termino": "sin errores",
+      "motivo": "Promesa absoluta que no se puede respaldar"
+    }
+  ],
+  "nombres_confidenciales": [
+    "Banco Andino del Sur",
+    "Cooperativa Nuevo Horizonte",
+    "Aseguradora Cumbre"
+  ],
+  "utm": {
+    "utm_source": {
+      "linkedin": "linkedin",
+      "newsletter": "newsletter",
+      "blog": "blog"
+    },
+    "utm_medium": {
+      "linkedin": "social-organico",
+      "newsletter": "email",
+      "blog": "referido-interno"
+    },
+    "utm_campaign": "{slug_pieza_madre}-{aaaamm}",
+    "utm_content": "{formato}-{numero}",
+    "reglas": "Todo en minúsculas, sin tildes ni espacios; las palabras se separan con guion."
+  },
+  "matriz_formatos": [
+    {
+      "id": "post_linkedin",
+      "canal": "linkedin",
+      "longitud": {
+        "min_caracteres": 600,
+        "max_caracteres": 1300
+      },
+      "gancho_max_caracteres": 140,
+      "estructura": [
+        "gancho",
+        "desarrollo de una sola idea",
+        "llamado a la acción",
+        "enlace con UTM"
+      ],
+      "tecnicas_de_redaccion": [
+        "gancho que plantea una tensión, una pregunta o un dato",
+        "una sola idea por post",
+        "párrafos de una o dos frases",
+        "cierre con pregunta o llamado a la acción"
+      ],
+      "requiere_de_pieza_madre": [
+        "una idea central desarrollable"
+      ],
+      "max_por_semana": 3
+    },
+    {
+      "id": "carrusel_linkedin",
+      "canal": "linkedin",
+      "laminas": {
+        "min": 6,
+        "max": 10
+      },
+      "max_palabras_por_lamina": 30,
+      "estructura": [
+        "portada con gancho",
+        "láminas internas, una idea por lámina",
+        "cierre con llamado a la acción"
+      ],
+      "tecnicas_de_redaccion": [
+        "la portada promete un beneficio concreto",
+        "frases cortas, una idea por lámina",
+        "progresión narrativa: cada lámina invita a pasar a la siguiente",
+        "el cierre resume y propone un siguiente paso"
+      ],
+      "requiere_de_pieza_madre": [
+        "una lista, pasos o comparación de al menos 5 elementos"
+      ],
+      "max_por_semana": 2
+    },
+    {
+      "id": "newsletter",
+      "canal": "newsletter",
+      "asunto_max_caracteres": 60,
+      "longitud": {
+        "min_palabras": 250,
+        "max_palabras": 450
+      },
+      "estructura": [
+        "asunto",
+        "introducción",
+        "3 secciones",
+        "llamado a la acción con enlace UTM"
+      ],
+      "tecnicas_de_redaccion": [
+        "asunto que genera curiosidad sin engañar",
+        "la primera frase sostiene la promesa del asunto",
+        "secciones fáciles de escanear, con subtítulo propio",
+        "un solo llamado a la acción"
+      ],
+      "requiere_de_pieza_madre": [
+        "al menos 3 temas desarrollables"
+      ],
+      "max_por_semana": 1,
+      "ejemplo": "Asunto: Tu operación, sin tareas repetitivas. Introducción: la automatización ya no es un lujo. Sección 1: qué es RPA. Sección 2: con Docfly tienes integración inmediata con cualquier ERP. Sección 3: cómo empezar. Llamado a la acción: agenda un diagnóstico."
+    },
+    {
+      "id": "guion_video_corto",
+      "canal": "linkedin",
+      "duracion_segundos": {
+        "min": 45,
+        "max": 60
+      },
+      "palabras": {
+        "min": 110,
+        "max": 150
+      },
+      "estructura": [
+        "gancho en los primeros 3 segundos",
+        "3 puntos",
+        "cierre con llamado a la acción"
+      ],
+      "tecnicas_de_redaccion": [
+        "lenguaje hablado, no escrito",
+        "frases cortas que se puedan decir de corrido",
+        "un punto por bloque",
+        "cierre con llamado a la acción"
+      ],
+      "requiere_de_pieza_madre": [
+        "al menos 3 puntos claros"
+      ],
+      "max_por_semana": 1,
+      "ejemplo": "Gancho: ¿Y si un robot hiciera tu trabajo repetitivo? Punto 1: los bots imitan acciones humanas. Punto 2: nuestro motor con GPT lee tus documentos. Punto 3: empiezas en semanas. Cierre: escríbenos."
+    },
+    {
+      "id": "caso_de_exito",
+      "canal": "blog",
+      "longitud": {
+        "min_palabras": 500,
+        "max_palabras": 900
+      },
+      "estructura": [
+        "cliente",
+        "reto",
+        "solución",
+        "resultados medibles",
+        "testimonio"
+      ],
+      "tecnicas_de_redaccion": [
+        "narración en orden: situación, reto, solución, resultado",
+        "resultados con cifras que el cliente respalde",
+        "el testimonio va entre comillas y con nombre y cargo"
+      ],
+      "requiere_de_pieza_madre": [
+        "testimonio de un cliente real con nombre y cargo",
+        "resultados medibles de ese cliente"
+      ],
+      "max_por_semana": 1
+    },
+    {
+      "id": "infografia",
+      "canal": "linkedin",
+      "elementos": {
+        "min": 5,
+        "max": 7
+      },
+      "max_palabras_por_elemento": 15,
+      "estructura": [
+        "título",
+        "5 a 7 datos o pasos",
+        "fuente de cada dato"
+      ],
+      "tecnicas_de_redaccion": [
+        "título que dice qué se aprende",
+        "un dato o paso por elemento, en una frase",
+        "cada dato con su fuente"
+      ],
+      "requiere_de_pieza_madre": [
+        "5 a 7 datos o pasos; si son datos, cada uno con su fuente"
+      ],
+      "max_por_semana": 1
+    }
+  ],
+  "calendario": {
+    "zona_horaria": "America/Bogota",
+    "dias_habiles": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes"
+    ],
+    "franjas_de_publicacion": [
+      "08:30",
+      "11:00",
+      "15:00"
+    ],
+    "capacidad_max_por_dia": 2,
+    "capacidad_max_por_semana": 4,
+    "separacion_minima_mismo_tema_horas": 48,
+    "festivos": [
+      {
+        "fecha": "2026-01-01",
+        "nombre": "Año Nuevo"
+      },
+      {
+        "fecha": "2026-01-12",
+        "nombre": "Día de los Reyes Magos (observado)"
+      },
+      {
+        "fecha": "2026-03-23",
+        "nombre": "Día de San José (observado)"
+      },
+      {
+        "fecha": "2026-04-02",
+        "nombre": "Jueves Santo"
+      },
+      {
+        "fecha": "2026-04-03",
+        "nombre": "Viernes Santo"
+      },
+      {
+        "fecha": "2026-05-01",
+        "nombre": "Día del Trabajo"
+      },
+      {
+        "fecha": "2026-05-18",
+        "nombre": "Ascensión del señor (observado)"
+      },
+      {
+        "fecha": "2026-06-08",
+        "nombre": "Corpus Christi (observado)"
+      },
+      {
+        "fecha": "2026-06-15",
+        "nombre": "Sagrado Corazón (observado)"
+      },
+      {
+        "fecha": "2026-06-29",
+        "nombre": "San Pedro y San Pablo"
+      },
+      {
+        "fecha": "2026-07-13",
+        "nombre": "Día de Nuestra Señora del Rosario de Chiquinquirá (observado)"
+      },
+      {
+        "fecha": "2026-07-20",
+        "nombre": "Día de la Independencia"
+      },
+      {
+        "fecha": "2026-08-07",
+        "nombre": "Batalla de Boyacá"
+      },
+      {
+        "fecha": "2026-08-17",
+        "nombre": "La Asunción (observado)"
+      },
+      {
+        "fecha": "2026-10-12",
+        "nombre": "Día de la Raza"
+      },
+      {
+        "fecha": "2026-11-02",
+        "nombre": "Día de Todos los Santos (observado)"
+      },
+      {
+        "fecha": "2026-11-16",
+        "nombre": "Independencia de Cartagena (observado)"
+      },
+      {
+        "fecha": "2026-12-08",
+        "nombre": "La Inmaculada Concepción"
+      },
+      {
+        "fecha": "2026-12-25",
+        "nombre": "Navidad"
+      },
+      {
+        "fecha": "2027-01-01",
+        "nombre": "Año Nuevo"
+      },
+      {
+        "fecha": "2027-01-11",
+        "nombre": "Día de los Reyes Magos (observado)"
+      },
+      {
+        "fecha": "2027-03-22",
+        "nombre": "Día de San José (observado)"
+      },
+      {
+        "fecha": "2027-03-25",
+        "nombre": "Jueves Santo"
+      },
+      {
+        "fecha": "2027-03-26",
+        "nombre": "Viernes Santo"
+      },
+      {
+        "fecha": "2027-05-01",
+        "nombre": "Día del Trabajo"
+      },
+      {
+        "fecha": "2027-05-10",
+        "nombre": "Ascensión del señor (observado)"
+      },
+      {
+        "fecha": "2027-05-31",
+        "nombre": "Corpus Christi (observado)"
+      },
+      {
+        "fecha": "2027-06-07",
+        "nombre": "Sagrado Corazón (observado)"
+      },
+      {
+        "fecha": "2027-07-05",
+        "nombre": "San Pedro y San Pablo (observado)"
+      },
+      {
+        "fecha": "2027-07-12",
+        "nombre": "Día de Nuestra Señora del Rosario de Chiquinquirá (observado)"
+      },
+      {
+        "fecha": "2027-07-20",
+        "nombre": "Día de la Independencia"
+      },
+      {
+        "fecha": "2027-08-07",
+        "nombre": "Batalla de Boyacá"
+      },
+      {
+        "fecha": "2027-08-16",
+        "nombre": "La Asunción (observado)"
+      },
+      {
+        "fecha": "2027-10-18",
+        "nombre": "Día de la Raza (observado)"
+      },
+      {
+        "fecha": "2027-11-01",
+        "nombre": "Día de Todos los Santos"
+      },
+      {
+        "fecha": "2027-11-15",
+        "nombre": "Independencia de Cartagena (observado)"
+      },
+      {
+        "fecha": "2027-12-08",
+        "nombre": "La Inmaculada Concepción"
+      },
+      {
+        "fecha": "2027-12-25",
+        "nombre": "Navidad"
+      }
+    ],
+    "nota": "La separación se cuenta en horas de calendario, incluidos fines de semana y festivos."
+  }
+}
