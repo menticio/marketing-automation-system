@@ -34,7 +34,7 @@ def load_json(path):
 
 
 def load_config(path=DATA_DIR / "config.json"):
-    """Carga las reglas de Mercadeo: productos, términos prohibidos, formatos y calendario."""
+    """Carga y lee el contenido y las reglas de Mercadeo: productos, términos prohibidos, formatos y calendario."""
     # "path" tiene un valor por defecto: si no se le pasa ruta, usa data/config.json.
     # Las pruebas pueden pasarle otro archivo de configuración para probar otros casos.
     return load_json(path)
